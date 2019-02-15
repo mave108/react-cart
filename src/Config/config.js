@@ -1,0 +1,1 @@
+export const LOGIN_API_BASE_URL = 'https://swapi.co/api/';
