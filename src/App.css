@@ -199,6 +199,9 @@ white-space: pre-line;
 	.product-detail-box .media{
 		display: inline-block;
 	}
+	.product-detail-box img{
+		width: 100% !important;
+	}
 	.product-detail-box .container{
 		padding: 0;
 	}
