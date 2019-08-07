@@ -11,7 +11,7 @@ const Detail = (props) => {
             <div className="media-body">
                 <h5 className="mt-0">{props.detail.title}</h5>
                 <h4 className="price">Current Price: <span>INR {props.detail.price}</span></h4>
-                {props.detail.description}
+                <p dangerouslySetInnerHTML={{__html: props.detail.description}} />
                 <div>
                     <br />
                 <button type="submit" className="btn btn-success product-btn" onClick={()=> props.addToCartHandler(props.detail.id)}>Add to Cart</button>&nbsp;
